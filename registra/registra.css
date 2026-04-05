@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/projeto-veiculo2\ 31\ de\ mar.\ de\ 2026\,\ 20_24_24.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    background-color:  rgba(225, 221, 221, 0.8);
+}
+.inputs{
+   display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 40px;
+    
+}
+.inputs input{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+.inputs label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.btn{
+    padding: 10px 20px;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+ background-color:rgb(184, 184, 193);
+ transition: 0.5s;
+}
+p{
+    color: red;
+}
+@media (max-width: 500px){
+
+.container{
+    width: 90%;
+    padding: 20px;
+}
+
+.inputs{
+    margin: 10px;
+    padding: 10px;
+}
+
+.inputs input{
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+}
+
+}
+
