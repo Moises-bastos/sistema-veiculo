@@ -96,6 +96,10 @@ body{
     transform: translateY(-8px);
 
 }
+.links a:hover{
+    background-color:rgb(48, 89, 125);
+    transition: 0.5s;
+}
 @media (max-width: 500px){
 
 .info{
